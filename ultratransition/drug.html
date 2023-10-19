@@ -1,0 +1,31 @@
+<html>
+<center>
+   <h2>--------AreaInsight--------</h2>
+<body>
+    
+    <form action= "https://sheetdb.io/api/v1/tl20s1mn3kmdp" method= "post" id="specificIssue">
+        <button onclick="openGapWindow()" type= "submit" value="Smoking" name=data[specificIssue]> Smoking </button>
+    </form>
+    
+     <form action= "https://sheetdb.io/api/v1/tl20s1mn3kmdp" method= "post" id="specificIssue">
+        <button onclick="openGapWindow()" type= "submit" value="Vaping" name=data[specificIssue]> Vaping </button>
+    </form>
+    
+     <form action= "https://sheetdb.io/api/v1/tl20s1mn3kmdp" method= "post" id="specificIssue">
+        <button onclick="openGapWindow()" type= "submit" value="Consuming" name=data[specificIssue]> Consuming </button>
+    </form>
+    
+    <form action="index.html">
+        <input type="submit" value="BACK" id="return">
+    </form>
+    <script>
+        function openGapWindow(){
+            window.open("gap.html")
+            setTimeout(function(){
+                window.close();
+            },7);
+        }
+    </script>
+</body>
+</center>
+</html>

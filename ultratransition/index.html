@@ -1,0 +1,51 @@
+<html>
+<center>
+<h2>--------AreaInsight--------</h2>
+<body>
+       <form action= "https://sheetdb.io/api/v1/tl20s1mn3kmdp" method= "post" id="action.du">
+        <button onclick="openDrugWindow()" type= "submit" value="Drug Use" name=data[action]> Drug Use </button>
+        </form>
+        
+        <form action= "https://sheetdb.io/api/v1/tl20s1mn3kmdp" method= "post" id="action.du">
+        <button onclick="openSConflictWindow()" type= "submit" value="Student Conflict" name=data[action]> Student Conflict </button>
+        </form>
+        
+        <form action= "https://sheetdb.io/api/v1/tl20s1mn3kmdp" method= "post" id="action.du">
+        <button onclick="openSViolenceWindow()" type= "submit" value="Sexual Violence" name=data[action]> Sexual Violence </button>
+        </form>
+        
+        <form action= "https://sheetdb.io/api/v1/tl20s1mn3kmdp" method= "post" id="action.du">
+        <button onclick="openEmergencyWindow()" type= "submit" value="Emergency" name=data[action]> Emergency </button>
+        </form>
+        
+        
+        <script>
+                function openDrugWindow(){
+                        window.open("drug.html");
+                        setTimeout(function(){
+                                window.close();
+                        },7);
+                }
+                function openSConflictWindow(){
+                        window.open("sconflict.html");
+                         setTimeout(function(){
+                                window.close();
+                        },7);
+                        
+                }
+                function openSViolenceWindow(){
+                        window.open("genlocation.html");
+                         setTimeout(function(){
+                                window.close();
+                        },7);
+                }
+                function openEmergencyWindow(){
+                        window.open("genlocation.html");
+                         setTimeout(function(){
+                                window.close();
+                        },7);
+                }
+        </script>
+</body>
+</center>
+</html>

@@ -1,0 +1,35 @@
+<html>
+<center>
+    <h2>--------AreaInsight--------</h2>
+<body>
+    <br>
+    -_-_-_ Area _-_-_-
+    <br>
+    ---Area Of Concern---
+    <p></p>
+     <form action= "https://sheetdb.io/api/v1/tl20s1mn3kmdp" method= "post" id="specificIssue">
+        <button onclick="openAreaWindow()" type= "submit" value="First Floor" name=data[floor]> First Floor </button>
+    </form>
+    
+     <form action= "https://sheetdb.io/api/v1/tl20s1mn3kmdp" method= "post" id="specificIssue">
+        <button onclick="openAreaWindow()" type= "submit" value="Second Floor" name=data[floor]> Second Floor </button>
+    </form>
+    
+     <form action= "https://sheetdb.io/api/v1/tl20s1mn3kmdp" method= "post" id="specificIssue">
+        <button onclick="openAreaWindow()" type= "submit" value="Third Floor" name=data[floor]> Third Floor</button>
+    </form>
+    
+    <form action="index.html">
+        <input type="submit" value="HOME" id="return">
+    </form>
+     <script>
+        function openAreaWindow(){
+            window.open("addcomments.html")
+            setTimeout(function(){
+                window.close();
+            },7);
+        }
+    </script>
+</body>
+</center>
+</html>
